@@ -1,0 +1,33 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "file-loader": "6.2.0",
+    "glsl-noise": "0.0.0",
+    "glslify": "7.1.1",
+    "glslify-loader": "2.0.0",
+    "gsap": "3.11.4",
+    "imagesloaded": "5.0.0",
+    "parcel-bundler": "^1.6.1",
+    "raw-loader": "4.0.2",
+    "three": "0.149.0",
+    "tiny-emitter": "2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}
